@@ -1,0 +1,16 @@
+(module Measurement_Point_Square-TH_Medium (layer F.Cu) (tedit 654EA85E)
+  (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
+  (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
+  (attr virtual)
+  (fp_text reference REF** (at 0 -2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Measurement_Point_Square-TH_Medium (at 0 2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1 -1) (end 1 1) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1 1) (end -1 1) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1 1) (end -1 -1) (layer F.CrtYd) (width 0.05))
+  (pad "" thru_hole rect (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+)
